@@ -1,0 +1,26 @@
+/* Importação dos Módulos CSS */
+
+/* Base e Utilitários */
+@import url('base.css');
+@import url('utils.css');
+
+/* Componentes */
+@import url('components/buttons.css');
+@import url('components/forms.css');
+
+/* Layout */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/* Seções */
+@import url('sections/hero.css');
+@import url('sections/reputation.css');
+@import url('sections/about.css');
+@import url('sections/services.css');
+@import url('sections/experience.css');
+@import url('sections/consultation.css');
+@import url('sections/projects.css');
+@import url('sections/what-we-do.css');
+
+/* Responsividade (deve ser o último) */
+@import url('responsive.css');

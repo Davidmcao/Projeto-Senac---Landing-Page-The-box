@@ -1,0 +1,13 @@
+/* Seção O que podemos fazer por você */
+.what-we-do {
+    padding: 80px 0;
+    background-color: var(--light-blue);
+    text-align: center;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+/* Note: Form styles are in components/forms.css */

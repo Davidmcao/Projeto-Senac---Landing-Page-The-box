@@ -1,0 +1,28 @@
+/* Seção Reputação */
+.reputation {
+    padding: 100px 0 60px;
+    background-color: var(--white);
+}
+
+.reputation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.reputation-card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--light-gray);
+}
+
+.reputation-icon {
+    margin-bottom: 20px;
+}
+
+.reputation-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}

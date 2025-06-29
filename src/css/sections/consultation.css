@@ -1,0 +1,25 @@
+/* Seção Consulta */
+.consultation {
+    padding: 60px 0;
+    background-color: #292E3D;
+    color: var(--white);
+}
+
+.consultation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultation-title {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 0;
+    flex: 2;
+}
+
+.consultation-text {
+    color: var(--white);
+    margin-bottom: 0;
+    flex: 1;
+}

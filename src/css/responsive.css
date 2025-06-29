@@ -1,0 +1,126 @@
+/* Responsividade */
+@media (max-width: 992px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .feature-projects {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    
+    .about-content,
+    .experience-content,
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .consultation-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .consultation-title,
+    .consultation-text {
+        margin-bottom: 20px;
+    }
+    
+    .projects-grid {
+        margin-left: 0;
+    }
+    
+    .project-filters {
+        float: none;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+        margin: 0 15px 15px;
+        text-align: center;
+    }
+    
+    .filter-btn.active::before {
+        display: none;
+    }
+    
+    .projects-pagination {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        position: fixed;
+        top: 70px; /* Adjust if header height changes */
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: var(--white);
+        transition: var(--transition);
+        z-index: 999;
+    }
+    
+    .nav.active {
+        left: 0;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .nav-list li {
+        margin: 15px 0;
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .reputation-grid {
+        grid-template-columns: 1fr;
+    }
+}
