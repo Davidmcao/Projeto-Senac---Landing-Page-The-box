@@ -1,7 +1,7 @@
 
 ---
 
-### 📁 `responsivo/README.md`
+### 📁 `the-box/README.md`
 
 ```markdown
 # Site Responsivo - Multi-Seções
